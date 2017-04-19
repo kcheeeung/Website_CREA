@@ -225,23 +225,6 @@ html,body {
   font-family: "Granjon", "Times New Roman", serif;
 }
 
-.box1 img{
-  opacity: .7;
-}
-
-.textoverlay{
-  position: absolute;
-  top: 300px;
-}
-
-@media (max-width: 769px) {
-  .box1 img{
-    width: 100px;
-  }
-}
-
-
-
 
 
 
