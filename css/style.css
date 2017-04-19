@@ -204,8 +204,16 @@ html,body {
   }
 }
 
+/*ourvision*/
+.ourvision{
+  text-align: justify;
+}
 
-
+.ourvision h3{
+  text-align: center;
+  font-family: "Granjon", "Times New Roman", serif;
+  letter-spacing: 2.2px;
+}
 
 
 
