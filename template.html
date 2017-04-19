@@ -20,71 +20,71 @@
 </head>
 
 <body>
-<!-- idbar -->
-<div class="idbar">
-	<a href="#">Center for Research and Education on Aging</a>
-</div>
-
-<!-- whitespacer -->
-<div class="whitespacer" style="height:16px;"></div>
-
-<!-- logoarea -->
-<div class="logoarea">
-	<img src="images\logoucb.png" alt="ucb logo" class="img-responsive">
-</div>
-
-<!-- navbar -->
-<nav class="navbar-custom">
-	<div class="container-fluid">
-
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-				<span class="sr-only">Toggle navigation</span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			</button>
-		</div>
-
-		<div class="collapse navbar-collapse navbar-ex1-collapse">
-			<ul class="nav navbar-nav">
-				<li><a href="home.html">Home</a></li>
-				
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown">About</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">History</a></li>
-						<li><a href="#">Mission Statement</a></li>
-						<li><a href="#">Paola S. Timiras</a></li>
-					</ul>
-				</li>	
-
-				<li class="dropdown">
-					<a class="dropdown-toggle" data-toggle="dropdown">Research</a>
-					<ul class="dropdown-menu">
-						<li><a href="#">3D Bioprinting</a></li>
-						<li><a href="#">Aging Simulation</a></li>
-						<li><a href="#">Artificial Intelligence</a></li>
-					</ul>
-				</li>	 
-
-				<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">Our Team</b></a>
-					<ul class="dropdown-menu">
-						<li><a href="#">George A. Brooks</a></li>
-						<li><a href="#">Steven A. Garan</a></li>
-						<li><a href="#">Nuno Martins</a></li>
-						<li><a href="#">Lab Members</a></li>
-					</ul>
-				</li>
-
-				<li><a href="#">Support Us</a></li>
-
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</div><!-- /.navbar-collapse -->
+	<!-- idbar -->
+	<div class="idbar">
+		<a href="#">Center for Research and Education on Aging</a>
 	</div>
-</nav>
+
+	<!-- whitespacer -->
+	<div class="whitespacer" style="height:8px;"></div>
+
+	<!-- logoarea -->
+	<div class="logoarea">
+		<img src="images\logoucb.png" alt="ucb logo" class="img-responsive">
+	</div>
+
+	<!-- navbar -->
+	<nav class="navbar-custom">
+		<div class="container-fluid">
+
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="home.html">Home</a></li>
+					
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown">About</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">History</a></li>
+							<li><a href="#">Mission Statement</a></li>
+							<li><a href="#">Paola S. Timiras</a></li>
+						</ul>
+					</li>	
+
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown">Research</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">3D Bioprinting</a></li>
+							<li><a href="#">Aging Simulation</a></li>
+							<li><a href="#">Artificial Intelligence</a></li>
+						</ul>
+					</li>	 
+
+					<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown">Our Team</b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">George A. Brooks</a></li>
+							<li><a href="#">Steven A. Garan</a></li>
+							<li><a href="#">Nuno Martins</a></li>
+							<li><a href="#">Lab Members</a></li>
+						</ul>
+					</li>
+
+					<li><a href="#">Support Us</a></li>
+
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
 
 
 
@@ -92,14 +92,23 @@
 
 
 
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="bcswipe/jquery.bcSwipe.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 
+	<script>
+		$(document).ready(function() {
+			$("#mycarousel").carousel({
+				interval:8000,
+				pause:"hover",
+			})
+			$('#mycarousel').bcSwipe({ threshold: 30 });
+		})
+	</script>
+</body>
 
-
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="bcswipe/jquery.bcSwipe.min.js"></script>
-<!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 
 <footer class="container-fluid">
 	<p class="copyright">
