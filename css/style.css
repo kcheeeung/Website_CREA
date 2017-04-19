@@ -31,6 +31,7 @@ html,body {
     text-decoration: none;
     font-size: 12px;
 }
+
 /*logoarea*/
 .logoarea{
     position: relative;
@@ -42,6 +43,16 @@ html,body {
     .logoarea{
       max-width: 125px;
     }
+}
+
+@media (max-width: 769px) {
+    .idbar a:link{
+      font-size: 11px;
+    }
+    .idbar a:visited{
+      font-size: 11px;
+    }
+  }
 }
 
 /*navbar*/
@@ -204,30 +215,6 @@ html,body {
   }
 }
 
-/*ourvision*/
-.ourvision{
-  text-align: justify;
-}
-
-.ourvision h3{
-  text-align: center;
-  font-family: "Granjon", "Times New Roman", serif;
-  letter-spacing: 2.2px;
-}
-
-
-
-.box1{
-  text-align: justify;
-}
-
-.box1 h3{
-  font-family: "Granjon", "Times New Roman", serif;
-}
-
-
-
-
 footer{
   background-color: #003262;
   margin: 0;
@@ -239,3 +226,12 @@ footer{
   font-size: 12px;
   margin: 8px 0px;
 }
+
+@media (max-width: 769px) {
+    .copyright{
+      font-size: 11px;
+    }
+  }
+}
+
+
