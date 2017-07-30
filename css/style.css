@@ -223,19 +223,30 @@ html,body {
     font-size: 26px;
     font-weight: 500;
     color: #003262;
-    float: left;
-    margin: 25px 6.75%;
+  }
+  .headerwhitespace{
+    height: 15px;
+  }
+  .headerwhitespace2{
+    height: 10px;
   }
 
   @media (max-width: 769px){
     .header{
       font-size: 22px;
-      margin: 10px 6.75%;
+    }
+    .headerwhitespace{
+      height: 10px;
+    }
+    .headerwhitespace2{
+      height: 5px;
+    }
+    .headertext{
+      /*text-align: justify;*/
     }
   }
 
 /*About*/
-  
 
 
 
