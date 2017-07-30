@@ -217,41 +217,45 @@ html,body {
     }
   }
 
-/*About*/
-  .aboutsplash{
-    background-image: url(https://unsplash.it/2000/1400?image=756);
-    /*background-image: url(..\images\sunset.jpg);*/
-    /*upload to server*/
-    /*fix dimensions*/
-    background-size: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat; 
-    height: 250px;
+/*Global CSS*/
+  .header {
+    font-family: "Granjon", "Times New Roman", serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #003262;
+    float: left;
+    margin: 25px 6.75%;
   }
 
-
-
-
-
-
-footer{
-  background-color: #003262;
-  margin: 0;
-  padding: 0;
-}
-
-.copyright{
-  color: white;
-  font-size: 12px;
-  margin: 8px 0px;
-}
-
-@media (max-width: 769px) {
-    .copyright{
-      font-size: 11px;
+  @media (max-width: 769px){
+    .header{
+      font-size: 22px;
+      margin: 10px 6.75%;
     }
   }
-}
 
+/*About*/
+  
+
+
+
+
+/*Footer*/
+  footer{
+    background-color: #003262;
+    margin: 0;
+    padding: 0;
+  }
+
+  .copyright{
+    color: white;
+    font-size: 12px;
+    margin: 8px 0px;
+  }
+
+  @media (max-width: 769px) {
+      .copyright{
+        font-size: 11px;
+      }
+    }
 
