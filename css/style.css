@@ -227,9 +227,10 @@ html,body {
     .header{
       font-size: 24px;
     }
-    .headercontent{
-      /*text-align: justify;*/
-    }
+  }
+  .headersidecontent{
+    text-align: justify;
+    font-size: 12px;
   }
 
 /*About Specific*/
