@@ -45,15 +45,6 @@ html,body {
       .logoarea{
         max-width: 125px;
       }
-  }
-
-  @media (max-width: 769px) {
-      .idbar a:link{
-        font-size: 11px;
-      }
-      .idbar a:visited{
-        font-size: 11px;
-      }
     }
   }
 
@@ -172,13 +163,11 @@ html,body {
         font-size: 24px;
     }
   }
-
   @media (max-width: 769px) {
       .customcarousel-caption p{
         font-size: 18px;
     }
   }
-
   @media (max-width: 600px) {
       .customcarousel-caption p{
         font-size: 16px;
@@ -220,33 +209,33 @@ html,body {
 /*Global CSS*/
   .header {
     font-family: "Granjon", "Times New Roman", serif;
-    font-size: 26px;
+    font-size: 28px;
     font-weight: 500;
     color: #003262;
   }
   .headerwhitespace{
-    height: 15px;
+    height: 10px;
   }
   .headerwhitespace2{
-    height: 10px;
+    height: 5px;
+  }
+  .headercontent{
+    text-align: justify;
   }
 
   @media (max-width: 769px){
     .header{
-      font-size: 22px;
+      font-size: 24px;
     }
-    .headerwhitespace{
-      height: 10px;
-    }
-    .headerwhitespace2{
-      height: 5px;
-    }
-    .headertext{
+    .headercontent{
       /*text-align: justify;*/
     }
   }
 
-/*About*/
+/*About Specific*/
+  
+
+
 
 
 
@@ -263,10 +252,3 @@ html,body {
     font-size: 12px;
     margin: 8px 0px;
   }
-
-  @media (max-width: 769px) {
-      .copyright{
-        font-size: 11px;
-      }
-    }
-
