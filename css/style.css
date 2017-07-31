@@ -233,9 +233,25 @@ html,body {
   }
 
 /*About Specific*/
-  
+  .aboutsplash img{
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
 
-
+  @media (max-width: 769px){
+    .aboutsplash img{
+      overflow: hidden;
+      width: auto;
+      max-height: 150px;  
+    }
+  }
+  @media (max-width: 500px){
+    .aboutsplash img{
+      position: left;
+      margin: 0 0 0 -25%;
+    }
+  }
 
 
 
