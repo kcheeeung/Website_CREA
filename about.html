@@ -57,9 +57,9 @@
 					<li class="dropdown">
 						<a class="dropdown-toggle" data-toggle="dropdown">About</a>
 						<ul class="dropdown-menu">
-							<li><a href="#">History</a></li>
-							<li><a href="#">Mission Statement</a></li>
-							<li><a href="#">Paola S. Timiras</a></li>
+							<li><a href="#History">History</a></li>
+							<li><a href="#Mission_Statement">Mission Statement</a></li>
+							<li><a href="#Paola_Timiras">Paola S. Timiras</a></li>
 						</ul>
 					</li>	
 
@@ -193,12 +193,33 @@
 	<!-- whitespacer -->
 	<div class="whitespace" style="height:25px;"></div>
 
-
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="js/bootstrap.min.js"></script>
 
+	<script>
+		$(document).ready(function(){
+			// smooth scroll to anchor
+			var $root = $("html, body");
+			$(document).on("click", "a", function(x){
+				if($(x.target).attr("class") != "dropdown-toggle"){
+				$root.animate({
+					scrollTop: $($.attr(this,"href")).offset().top}, 600);
+					return false;
+				}
+			});
+
+			// collapse navbar on anchor click
+			$(document).on("click",".navbar-collapse.in",function(e){
+			    if($(e.target).is("a") && $(e.target).attr("class") != "dropdown-toggle"){
+				$(this).collapse('hide');
+				}
+			});
+
+
+		});
+	</script>
 </body>
 
 

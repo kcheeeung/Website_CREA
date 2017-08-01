@@ -193,13 +193,16 @@
 	<script src="js/bootstrap.min.js"></script>
 
 	<script>
-		$(document).ready(function() {
+		$(document).ready(function(){
+			// pause carousel on hover
 			$("#mycarousel").carousel({
 				interval:8000,
 				pause:"hover",
-			})
-			$('#mycarousel').bcSwipe({ threshold: 50 });
-		})
+			});
+
+			// carousel swiping on mobile
+			$("#mycarousel").bcSwipe({ threshold: 50 });
+		});
 	</script>
 </body>
 
