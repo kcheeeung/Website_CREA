@@ -193,6 +193,9 @@
 	<!-- whitespacer -->
 	<div class="whitespace" style="height:25px;"></div>
 
+	<!-- scroll top -->
+	<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" data-placement="left"><span class="glyphicon glyphicon-chevron-up"></span></a>
+
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -213,11 +216,25 @@
 			// collapse navbar on anchor click
 			$(document).on("click",".navbar-collapse.in",function(e){
 			    if($(e.target).is("a") && $(e.target).attr("class") != "dropdown-toggle"){
-				$(this).collapse('hide');
+				$(this).collapse("hide");
 				}
 			});
 
-
+			// scroll to top
+			$(window).scroll(function () {
+				if ($(this).scrollTop() > 150) { //num px before display
+					$('#back-to-top').fadeIn();
+					} 
+				else {
+					$('#back-to-top').fadeOut();
+					}
+				});
+			$('#back-to-top').click(function () {
+				$('#back-to-top').tooltip('hide');
+				$('body,html').animate({
+					scrollTop: 0}, 500); //millisecs
+					return false;
+				});
 		});
 	</script>
 </body>

@@ -255,6 +255,23 @@ html,body {
     }
   }
 
+/*Scroll Top Button*/
+  .back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    display:none;
+
+    color: white;
+    background-color: rgba(0,0,0,0.4);
+    border-color: transparent;
+  }
+  .back-to-top:hover{
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    border-color: transparent;
+  }
 
 /*Footer*/
   footer{
