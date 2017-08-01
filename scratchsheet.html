@@ -20,6 +20,26 @@
 }
 
 
+<!-- fade div in/out -->
+http://jsfiddle.net/eLwex993/2/
+
+<script>
+
+	// smooth scroll to anchor
+	var $root = $("html, body");
+	$("a").click(function(){
+		$root.animate({
+			scrollTop: $($.attr(this,"href")).offset().top}, 600);
+			return false;
+	});
+
+
+
+</script>
+
+
+
+
 <!-- ourvision -->
 <div class="container-fluid">
 	<div class="ourvision col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
