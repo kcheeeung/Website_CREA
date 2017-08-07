@@ -39,10 +39,7 @@ html,body {
         max-width: 200px;
     }
     @media (max-width: 769px) {
-        .logoarea{
-          max-width: 125px;
-        }
-      }
+      .logoarea{max-width: 125px;}
     }
 
   /*navbar*/
@@ -66,32 +63,27 @@ html,body {
       color:white;
     }
     @media (min-width: 768px) {
-        .navbar-custom .navbar-nav {
-        display: inline-block;
-        float: none;
-        vertical-align: top;
-        }
-
-        .navbar-custom .navbar-collapse {
-        text-align: center;
-        }
-
-        ul.nav li.dropdown:hover > ul.dropdown-menu {
-        display: block;
-        margin: 0;
-        }
+      .navbar-custom .navbar-nav {
+      display: inline-block;
+      float: none;
+      vertical-align: top;
+      }
+      .navbar-custom .navbar-collapse {
+      text-align: center;
+      }
+      ul.nav li.dropdown:hover > ul.dropdown-menu {
+      display: block;
+      margin: 0;
+      }
     }
     @media (max-width: 769px){
-        .navbar-custom{
-          font-size: 14px;
-        }
+      .navbar-custom{font-size: 14px;}
     }
 
   /* dropdown */
     .navbar-custom .navbar-nav .dropdown-menu  { 
       background-color: white;
       font-size: 14px;
-      
     }
     .navbar-custom .navbar-nav .dropdown-menu>li>a  { 
       color: #003262;
@@ -121,6 +113,7 @@ html,body {
     .carousel-inner > .item > img, 
     .carousel-inner > .item > a > img{
         margin: auto;
+        z-index: -999;
     }
     .customcarousel-caption {
       position: absolute;
@@ -133,9 +126,9 @@ html,body {
       color: #fff;
     }
     @media (max-width: 769px) {
-        .customcarousel-caption {
-          bottom: 13%;
-          left: 10%;
+      .customcarousel-caption {
+        bottom: 13%;
+        left: 10%;
       }
     }
     .customcarousel-caption .btn {
@@ -148,46 +141,34 @@ html,body {
     .customcarousel-caption a{
       color: white;
     }
-    @media (max-width: 1000px) {
-        .customcarousel-caption p{
-          font-size: 24px;
-      }
+    @media (max-width: 1000px){
+      .customcarousel-caption p{font-size: 24px;}
     }
-    @media (max-width: 769px) {
-        .customcarousel-caption p{
-          font-size: 18px;
-      }
+    @media (max-width: 769px){
+      .customcarousel-caption p{font-size: 18px;}
     }
-    @media (max-width: 600px) {
-        .customcarousel-caption p{
-          font-size: 16px;
-      }
+    @media (max-width: 600px){
+      .customcarousel-caption p{font-size: 16px;}
     }
 
   /*carousel button*/
     .btn.btn-default {
         color: white;
         background-color: rgba(0,0,0,0.3);
-        border-color: none;
+        border-color: #ccc;
         font-size: 15px;
         padding: 12px 30px;
     }
     .btn.btn-default:hover {
         color: white;
         background-color: rgba(0,0,0,0.7);
-        border-color: none;
+        border-color: #ccc;
     }
-    @media (max-width: 769px) {
-        .btn.btn-default {
-        font-size: 13px;
-        padding: 9.6px 24px;
-      }
+    @media (max-width: 769px){
+      .btn.btn-default {font-size: 13px;padding: 9.6px 24px;}
     }
     @media (max-width: 600px) {
-        .btn.btn-default {
-        font-size: 11px;
-        padding: 9px 15px;
-      }
+      .btn.btn-default {font-size: 11px;padding: 9.6px 24px;}
     }
 
 /*Global CSS*/
@@ -206,7 +187,6 @@ html,body {
   .headercontent{
     text-align: justify;
   }
-
   @media (max-width: 769px){
     .header{
       font-size: 24px;
@@ -246,7 +226,6 @@ html,body {
     bottom: 15px;
     right: 15px;
     display:none;
-
     color: white;
     background-color: rgba(0,0,0,0.4);
     border-color: transparent;
@@ -269,3 +248,4 @@ html,body {
     font-size: 12px;
     margin: 8px 0px;
   }
+
