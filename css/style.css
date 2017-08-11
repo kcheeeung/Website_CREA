@@ -204,7 +204,14 @@ html,body {
     height: auto;
     margin: 0;
   }
-
+  #spacerinimage{
+    display: none;
+  }
+  @media (max-width: 1200px){
+    #spacerinimage{
+      display: block;
+    }
+  }
   @media (max-width: 769px){
     .aboutsplash img{
       overflow: hidden;
