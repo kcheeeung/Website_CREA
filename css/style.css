@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Granjon";
-    src: url(..\fonts\Granjon.ttf);\
+    src: url(..\fonts\Granjon.ttf);
     /*upload to server*/
 }
 
@@ -9,6 +9,7 @@ html,body {
     padding:0px;
     letter-spacing: 0.2px;
     color: black;
+    font-family: "Arial";
 }
 
 /*Home*/
