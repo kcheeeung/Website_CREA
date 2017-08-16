@@ -197,6 +197,14 @@ html,body {
     text-align: justify;
     font-size: 12px;
   }
+  .spacerinimage{
+    display: none;
+  }
+  @media (max-width: 1200px){
+    .spacerinimage{
+      display: block;
+    }
+  }
 
 
 /*About Specific*/
@@ -204,14 +212,6 @@ html,body {
     width: 100%;
     height: auto;
     margin: 0;
-  }
-  #spacerinimage{
-    display: none;
-  }
-  @media (max-width: 1200px){
-    #spacerinimage{
-      display: block;
-    }
   }
   @media (max-width: 769px){
     .aboutsplash img{
