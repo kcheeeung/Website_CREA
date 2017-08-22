@@ -1,15 +1,9 @@
-@font-face{
-    font-family: "Granjon";
-    src: url(..\fonts\Granjon.ttf);
-    /*upload to server*/
-}
-
 html,body {
-    margin:0px;
-    padding:0px;
-    letter-spacing: 0.2px;
-    color: black;
-    font-family: "Arial";
+  margin:0px;
+  padding:0px;
+  letter-spacing: 0.2px;
+  color: black;
+  font-family: 'Open Sans', 'Arial', sans-serif;
 }
 
 /*Home*/
@@ -136,7 +130,7 @@ html,body {
       text-shadow: none;
     }
     .customcarousel-caption p{
-      font-family: "Granjon", "Cambria", "Times New Roman", serif;
+      font-family: "Cambria", "Times New Roman", serif;
       font-size: 28px;
     }
     .customcarousel-caption a{
@@ -172,42 +166,7 @@ html,body {
       .btn.btn-default {font-size: 11px;padding: 9.6px 24px;}
     }
 
-/*Global CSS*/
-  .header {
-    font-family: "Granjon", "Cambria", "Times New Roman", serif;
-    font-size: 28px;
-    font-weight: 500;
-    color: #003262;
-  }
-  .headerwhitespace{
-    height: 10px;
-  }
-  .headerwhitespace2{
-    height: 5px;
-  }
-  .headercontent{
-    text-align: justify;
-  }
-  @media (max-width: 769px){
-    .header{
-      font-size: 24px;
-    }
-  }
-  .headerside{
-    text-align: justify;
-    font-size: 12px;
-  }
-  .spacerinimage{
-    display: none;
-  }
-  @media (max-width: 1200px){
-    .spacerinimage{
-      display: block;
-    }
-  }
-
-
-/*About Specific*/
+/*Global Splash*/
   .aboutsplash img{
     width: 100%;
     height: auto;
@@ -226,6 +185,50 @@ html,body {
       margin: 0 0 0 -25%;
     }
   }
+
+/*Global CSS*/
+  .header {
+    font-family: "Cambria", "Times New Roman", serif;
+    font-size: 28px;
+    font-weight: 500;
+    color: #003262;
+  }
+  @media (max-width: 769px){
+    .header{
+      font-size: 24px;
+    }
+  }  
+  .headerwhitespace{
+    height: 10px;
+  }
+  .headerwhitespace2{
+    height: 5px;
+  }
+  .headercontent{
+    text-align: justify;
+  }
+  .headerside{
+    font-family: "Source Sans Pro", "Arial", sans-serif;
+    font-size: 12px;
+  }
+
+/*Profile and Team Images*/
+  .profilepic{
+    margin: 0 auto;
+  }
+  .spacerinimage{
+    display: none;
+  }
+  @media (max-width: 993px){
+    .profiletitle{
+      text-align: center;
+    }
+    .spacerinimage{
+      display: block;
+    }
+  }
+
+
 
 /*Scroll Top Button*/
   .back-to-top {
