@@ -3,7 +3,7 @@ html,body {
   padding:0px;
   letter-spacing: 0.2px;
   color: black;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
 }
 
 /*Home*/
@@ -167,6 +167,9 @@ html,body {
     }
 
 /*Global Splash*/
+  .aboutsplash{
+    overflow: hidden;
+  }
   .aboutsplash img{
     width: 100%;
     height: auto;
@@ -174,14 +177,11 @@ html,body {
   }
   @media (max-width: 769px){
     .aboutsplash img{
-      overflow: hidden;
-      width: auto;
-      max-height: 150px;  
+      width: 769px;
     }
   }
   @media (max-width: 500px){
     .aboutsplash img{
-      position: left;
       margin: 0 0 0 -25%;
     }
   }
@@ -213,20 +213,44 @@ html,body {
   }
 
 /*Profile and Team Images*/
-  .profilepic{
-    margin: 0 auto;
-  }
-  .spacerinimage{
-    display: none;
-  }
-  @media (max-width: 993px){
-    .profiletitle{
+  /*ourteam*/
+    .profileID{
       text-align: center;
+    }
+    .profilepic{
+      margin: 0 auto;
+    }
+    .profilename{
+      font-family: "Source Sans Pro", "Arial", sans-serif;
+      font-size: 17px;
+    }
+    .profileposition{
+      font-family: "Open Sans", "Arial", sans-serif;
+      font-size: 11px;
     }
     .spacerinimage{
       display: block;
     }
-  }
+  /*about*/
+    .profileIDabout{
+      text-align: center;
+    }
+    .spacerinimageabout{
+      display: none; 
+    }
+    @media (max-width: 993px){
+      .spacerinimageabout{
+        display: block;
+      }
+    }
+
+
+
+
+
+
+
+
 
 
 
@@ -253,7 +277,6 @@ html,body {
     margin: 0;
     padding: 0;
   }
-
   .copyright{
     color: white;
     font-size: 12px;
