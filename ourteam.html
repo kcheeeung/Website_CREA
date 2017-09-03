@@ -56,7 +56,7 @@
 					<li><a href="home.html">Home</a></li>
 					
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">About</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">About</a>
 						<ul class="dropdown-menu">
 							<li><a href="about.html#Mission_Statement">Mission Statement</a></li>
 							<li><a href="about.html#History">History</a></li>
@@ -65,7 +65,7 @@
 					</li>	
 
 					<li class="dropdown">
-						<a class="dropdown-toggle" data-toggle="dropdown">Research</a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Research</a>
 						<ul class="dropdown-menu">
 							<li><a href="#3D_Bioprinting">3D Bioprinting</a></li>
 							<li><a href="#Aging_Simulation">Aging Simulation</a></li>
@@ -73,7 +73,7 @@
 					</li>	 
 
 					<li class="dropdown">
-							<a class="dropdown-toggle" data-toggle="dropdown">Our Team</b></a>
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Team</b></a>
 						<ul class="dropdown-menu">
 							<li><a href="#George_A_Brooks">George A. Brooks</a></li>
 							<li><a href="#Steven_A_Garan">Steven A. Garan</a></li>
@@ -92,7 +92,7 @@
 
 	<!-- aboutsplash -->
 		<div class="aboutsplash">
-			<img src="images\sunsetcrop2.jpg" alt="lbl sunset">
+			<img src="images\sunsetcrop.jpg" alt="lbl sunset">
 		</div>
 
 	<div class="whitespace" style="height:5px;"></div>
@@ -125,11 +125,11 @@
 						col-md-7  col-md-offset-0
 						col-sm-10 col-sm-offset-1">
 				<div class="headercontent">
-					Welcome to CREA. The Center for Research and Education on Aging (CREA) is a joint institution between University of California, Berkeley and Lawrence Berkeley National Laboratory. Our mission is to investigate the basic processes that cause aging, with the goal of improving and extending human healthspan. The Center for Research and Education on Aging integrates the intellectual assets and resources at both the University and the National Laboratory to accomplish this objective. This unique partnership at CREA fosters an environment that supports both basic aging research and educates the next generation of scientists. We are excited to see what the future will bring, and we hope you'll join our mission and vision.
+					Welcome to CREA. The Center for Research and Education on Aging (CREA) is a joint institution between University of California, Berkeley and Lawrence Berkeley National Laboratory. Our mission is to investigate the basic processes that cause aging, with the goal of improving and extending human healthspan. The Center for Research and Education on Aging integrates the intellectual assets and resources at both the University and the National Laboratory to accomplish this objective, and our unique partnerships at CREA foster an environment that supports both basic aging research and educates the next generation of scientists. We are excited to see what the future will bring, and we hope you'll join our mission and vision.
 					<br><br>
-					George A. Brooks joined the UC Berkeley faculty in 1971 and currently holds the chair at CREA. Brooks was a pioneer in modern exercise physiology and metabolism, and resposible the "Lactate Shuttle" and "Crossover Concept" hypotheses we know today. Later in the 70's, Brooks challenged the idea that lactic acid causes muscle fatigue after excerise and faced major backlash, including having trouble getting his grants funded. But he soldiered on, conducting more elaborate studies with rats and, years later, moving on to humans. Every time, with every study, his results were consistent with his radical idea.
+					George A. Brooks joined the UC Berkeley faculty in 1971 and currently holds the chair at CREA. Brooks was a pioneer in modern exercise physiology and metabolism, and resposible the "Lactate Shuttle" and "Crossover Concept" hypotheses we know today. In the late 70's, Brooks challenged the idea that lactic acid causes muscle fatigue after excerise and faced major backlash, including having trouble getting his grants funded. But he soldiered on, conducting more elaborate studies with rats and, years later, moving on to humans. Every time, with every study, his results were consistent with his radical idea.
 					<br><br>
-					Eventually, other researchers confirmed the work. Lactic acid is a fuel. And gradually, the thinking among exercise physiologists began to change. "They said, 'You're anaerobic, you need more oxygen,'" Dr. Brooks said. "The scientists were stuck in 1920."
+					Eventually, other researchers confirmed his work. Lactic acid is actually a fuel for the body. And gradually, the thinking among exercise physiologists began to change. "They said, 'You're anaerobic, you need more oxygen,'" Dr. Brooks said. "The scientists were stuck in 1920s."
 				</div>
 			</div>
 		</div>
@@ -184,9 +184,9 @@
 		<div class="container-fluid">
 			<div class="col-lg-10 col-lg-offset-1">
 				<!--
-					NOTES FOR CENTERING
-					If (2) add class: col-md-4 col-md-offset-2
-					If (1) add class: col-md-4 col-md-offset-4
+					NOTES FOR CENTERING (FITS 3)
+					If (2) change class: col-md-4 col-md-offset-2
+					If (1) change class: col-md-4 col-md-offset-4
 				-->
 				<!-- team leads -->
 				<div class="col-md-4 col-sm-6 col-xs-12">
@@ -318,7 +318,7 @@
 
 			// scroll to top
 			$(window).scroll(function () {
-				if ($(this).scrollTop() > 150) { //num px before display
+				if ($(this).scrollTop() > 75) { //num px before display
 					$('#back-to-top').fadeIn();
 					} 
 				else {

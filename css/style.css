@@ -76,6 +76,9 @@ html,body {
     }
 
   /* dropdown */
+    .dropdown-menu{
+      z-index: 99999 !important;
+    }
     .navbar-custom .navbar-nav .dropdown-menu  { 
       background-color: white;
       font-size: 14px;
@@ -254,8 +257,10 @@ html,body {
     }
   }
 
-
-
+/*Support Us*/
+  .supportusall{
+    font-size: 16px;
+  }
 
 
 /*Scroll Top Button*/
