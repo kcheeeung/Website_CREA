@@ -7,7 +7,7 @@ html,body {
 }
 
 /*Home*/
-  /*idbar*/
+  /*IDBar*/
     .idbar{
         background-color: #003262;
         padding: 10px 0px;
@@ -27,7 +27,7 @@ html,body {
         font-size: 12px;
     }
 
-  /*logoarea*/
+  /*Logo Area*/
     .logoarea{
         position: relative;
         left: 6%;
@@ -37,7 +37,7 @@ html,body {
       .logoarea{max-width: 125px;}
     }
 
-  /*navbar*/
+  /*Navbar*/
     .navbar-custom {
         background-color:white;
         color:#003262;
@@ -75,7 +75,7 @@ html,body {
       .navbar-custom{font-size: 14px;}
     }
 
-  /* dropdown */
+  /* Dropdown */
     .dropdown-menu{
       z-index: 99999 !important;
     }
@@ -102,12 +102,12 @@ html,body {
         background-color:#003262;
     }
 
-  /* slider */
+  /* Slider */
     .carousel-control.left, .carousel-control.right {
         background-image: none !important;
     }
 
-  /* centerslider */
+  /* Centerslider */
     .carousel-inner > .item > img, 
     .carousel-inner > .item > a > img{
         margin: auto;
@@ -149,13 +149,14 @@ html,body {
       .customcarousel-caption p{font-size: 16px;}
     }
 
-  /*carousel button*/
+  /*Carousel Button*/
     .btn.btn-default {
         color: white;
         background-color: rgba(0,0,0,0.3);
         border-color: #ccc;
         font-size: 15px;
         padding: 12px 30px;
+        border-width: 1.75px;
     }
     .btn.btn-default:hover {
         color: white;
@@ -216,7 +217,7 @@ html,body {
   }
 
 /*Profile and Team Images*/
-  /*ourteam*/
+  /*Ourteam*/
     .profileID{
       text-align: center;
     }
@@ -234,7 +235,7 @@ html,body {
     .spacerinimage{
       display: block;
     }
-  /*about*/
+  /*About*/
     .profileIDabout{
       text-align: center;
     }
@@ -258,9 +259,27 @@ html,body {
   }
 
 /*Support Us*/
-  .supportusall{
-    font-size: 16px;
+  .supportus{
+    text-align: justify;
   }
+/*Donate Button*/
+  .donatebutton {
+      color: #003262 !important;
+      background-color: white !important;
+      border-color: #003262 !important;
+      font-size: 15px !important;
+      padding: 12px 30px !important;
+  }
+  .donatebutton:hover {
+      color: white !important;
+      background-color: #003262 !important;
+      border-color: white !important;
+  }
+
+
+
+
+
 
 
 /*Scroll Top Button*/
